@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #283971;
+            color: #333;
+            /* Adjusted text color for better visibility */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            /* Use flexbox */
+            flex-wrap: wrap;
+            /* Allow wrapping */
+            justify-content: space-between;
+            /* Distribute content evenly */
+        }
+
+        .left-column,
+        .right-column {
+            width: 48%;
+            /* Set width for each column */
+        }
+
+        h1 {
+            text-align: center;
+            color: #283971;
+            width: 100%;
+            /* Make sure it spans both columns */
+        }
+
+        .profile-img {
+            display: block;
+            width: 200px;
+            height: 300px;
+            margin: 20px auto;
+            border-radius: 10%;
+            background-color: #ccc;
+            /* Placeholder background color */
+        }
+
+        .contact-details,
+        .education,
+        .work-experience,
+        .skills,
+        .other-info {
+            margin-bottom: 20px;
+        }
+
+        .info-title {
+            font-weight: bold;
+            color: #283971;
+        }
+
+        .info-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .info-list li {
+            margin-bottom: 5px;
+        }
+
+        .image-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .image-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Ben Coolin I. Jimenez</h1>
+            <img src="prof-pic.jpg" alt="Profile Picture" class="profile-img">
+        </div>
+        <div>
+            <div class="left-column">
+                <div class="contact-details">
+                    <h2 class="info-title">Contact Details:</h2>
+                    <ul>
+                        <li class="contact-info"><a href="https://www.facebook.com/coolin.jimenez">🙋‍♂️ add friend</a>
+                        </li>
+                        <li class="contact-info">
+                            <a href="mailto:jimenez.bencoolin@gmail.com" class="link">📧 send email</a>
+                        </li>
+                        <li class="contact-info">🏡 Cagayan de Oro City</li>
+                        <li class="contact-info">📱 09176239838</li>
+                    </ul>
+                </div>
+
+                <div class="education">
+                    <h2>🎓 Education:</h2>
+                    <ul>
+                        <li>🏫Xavier University</li>
+                        <li>📚College of Computer Studies</li>
+                        <li>🎒BSIT - 3</li>
+                        <li>🧑‍🎓 Nursery Graduate</li>
+                        <li>🧑‍🎓 Grade School Graduate</li>
+                        <li>🧑‍🎓 HighSchool Graduate</li>
+                    </ul>
+                </div>
+
+                <div class="work-experience">
+                    <h2>⚒️ Work Experience</h2>
+                    <ul>
+                        <li>🏪 Internship at WizTech</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="skills">
+                    <h2>💻 Skills:</h2>
+                    <ul>
+                        <li>☕ Java</li>
+                        <li>🐍 Python</li>
+                        <li>🕸 HTML</li>
+                        <li>🎨 CSS</li>
+                        <li>🗃 SQL</li>
+                    </ul>
+                </div>
+
+                <div class="other-info">
+                    <h2>✅ Works Done</h2>
+                    <ul>
+                        <li>🛜 Internet Cafe Ordering, Reservation Software with database</li>
+                        <li>📃 Resume Website</li>
+                        <li>🐾 Pet Tracker App</li>
+                        <li>📒 Digital Ledger</li>
+                        <li>📁 Working Database using SQL</li>
+                        <li>🖼️ Currently designing XU official Website</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
